@@ -1,0 +1,21 @@
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+let g:polyglot_disabled = ['markdown']
+let g:polyglot_disabled = ['autoindent']
+source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/module/guidesLine.vim
+source $HOME/.config/nvim/module/theme.vim
+source $HOME/.config/nvim/module/base.vim
+source $HOME/.config/nvim/module/coc.vim
+source $HOME/.config/nvim/module/airline.vim
+source $HOME/.config/nvim/module/terminal.vim
+source $HOME/.config/nvim/module/nnn.vim
+nnoremap  <silent> <C-P> :Files <CR>
+nnoremap  <silent> tk :tabnext <CR>
+nnoremap  <silent> tj :tabprev <CR>
+nnoremap  <silent> th :tabfirst <CR>
+nnoremap  <silent> tl :tablast <CR>
+nnoremap <silent> gk :bnext<CR>
+nnoremap <silent> gj :bprev<CR>
+set number
+set relativenumber
